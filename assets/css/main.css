@@ -3799,21 +3799,71 @@ input, select, textarea {
 
 		* {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  width: 400px;
-	height: 400px;
-  position: relative;
-  margin: auto;
-	object-fit: contain;
-	/* overflow: hidden; */
-}
+		@media screen and (max-width: 1280px) {
+
+			.slideshow-container {
+			  width: 400px;
+				height: 400px;
+			  position: relative;
+			  margin: auto;
+				object-fit: contain;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.slideshow-container {
+			  width: 400px;
+				height: 400px;
+			  position: relative;
+			  margin: auto;
+				object-fit: contain;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.slideshow-container {
+			  width: 400px;
+				height: 400px;
+			  position: relative;
+			  margin: auto;
+				object-fit: contain;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.slideshow-container {
+			  width: 200px;
+				height: 400px;
+			  position: relative;
+			  margin: auto;
+				object-fit: contain;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.slideshow-container {
+			  width: 200px;
+				height: 400px;
+			  position: relative;
+			  margin: auto;
+				object-fit: contain;
+			}
+
+
+		}
 
 /* Hide the images by default */
 .mySlides {
   display: none;
 	object-fit: contain;
-	/* overflow: hidden; */
 }
 
 /* Next & previous buttons */
