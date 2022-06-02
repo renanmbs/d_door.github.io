@@ -3799,47 +3799,10 @@ input, select, textarea {
 
 		* {box-sizing:border-box}
 
-		@media screen and (max-width: 1280px) {
-
-			.slideshow-container {
-			  width: 400px;
-				height: 400px;
-			  position: relative;
-			  margin: auto;
-				object-fit: contain;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.slideshow-container {
-			  width: 400px;
-				height: 400px;
-			  position: relative;
-			  margin: auto;
-				object-fit: contain;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.slideshow-container {
-			  width: 400px;
-				height: 400px;
-			  position: relative;
-			  margin: auto;
-				object-fit: contain;
-			}
-
-		}
-
 		@media screen and (max-width: 480px) {
-
-			.slideshow-container {
+			#slide_show > .slideshow-container {
 			  width: 200px;
-				height: 400px;
+				height: 200px;
 			  position: relative;
 			  margin: auto;
 				object-fit: contain;
@@ -3847,18 +3810,25 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
-
-			.slideshow-container {
+		@media screen and (max-width: 360px) {
+			#slide_show > .slideshow-container {
 			  width: 200px;
-				height: 400px;
+				height: 200px;
 			  position: relative;
 			  margin: auto;
 				object-fit: contain;
 			}
-
-
 		}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 400px;
+	height: 400px;
+  position: relative;
+  margin: auto;
+	object-fit: contain;
+
+}
 
 /* Hide the images by default */
 .mySlides {
