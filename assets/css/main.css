@@ -3799,57 +3799,17 @@ input, select, textarea {
 
 		* {box-sizing:border-box}
 
-		@media screen and (max-width: 1280px) {
-
-			/* Slideshow container */
-			#slide_show > .slideshow-container {
-			  width: 400px;
-				height: 400px;
-			  position: relative;
-			  margin: auto;
-
-
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#slide_show > .slideshow-container {
-			  width: 200px;
-				height: 200px;
-			  position: relative;
-			  margin: auto;
-
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-			#slide_show > .slideshow-container {
-			  width: 180px;
-				height: 200px;
-			  position: relative;
-			  margin: auto;
-
-			}
-
-		}
-
-		@media screen and (max-width: 360px) {
-			#slide_show > .slideshow-container {
-			  width: 150px;
-				height: 200px;
-			  position: relative;
-			  margin: auto;
-
-			}
-		}
+/* Slideshow container */
+.slideshow-container {
+  width: 400px;
+	height: 400px;
+  position: relative;
+  margin: auto;
+}
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-	
 }
 
 /* Next & previous buttons */
