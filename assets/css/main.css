@@ -3805,11 +3805,15 @@ input, select, textarea {
 	height: 400px;
   position: relative;
   margin: auto;
+	object-fit: contain;
+	/* overflow: hidden; */
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+	object-fit: contain;
+	/* overflow: hidden; */
 }
 
 /* Next & previous buttons */
