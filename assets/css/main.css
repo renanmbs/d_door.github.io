@@ -3799,6 +3799,20 @@ input, select, textarea {
 
 		* {box-sizing:border-box}
 
+		@media screen and (max-width: 1280px) {
+
+			/* Slideshow container */
+			#slide_show > .slideshow-container {
+			  width: 400px;
+				height: 400px;
+			  position: relative;
+			  margin: auto;
+
+
+			}
+
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#slide_show > .slideshow-container {
@@ -3806,7 +3820,7 @@ input, select, textarea {
 				height: 200px;
 			  position: relative;
 			  margin: auto;
-				object-fit: contain;
+
 			}
 
 		}
@@ -3817,7 +3831,7 @@ input, select, textarea {
 				height: 200px;
 			  position: relative;
 			  margin: auto;
-				object-fit: contain;
+
 			}
 
 		}
@@ -3828,24 +3842,14 @@ input, select, textarea {
 				height: 200px;
 			  position: relative;
 			  margin: auto;
-				object-fit: contain;
+
 			}
 		}
-
-/* Slideshow container */
-.slideshow-container {
-  width: 400px;
-	height: 400px;
-  position: relative;
-  margin: auto;
-	object-fit: contain;
-
-}
 
 /* Hide the images by default */
 .mySlides {
   display: none;
-	object-fit: contain;
+	\
 }
 
 /* Next & previous buttons */
