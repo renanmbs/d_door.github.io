@@ -3799,7 +3799,8 @@ input, select, textarea {
 
 		* {box-sizing:border-box}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 736px) {
+
 			#slide_show > .slideshow-container {
 			  width: 200px;
 				height: 200px;
@@ -3810,9 +3811,20 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 480px) {
+			#slide_show > .slideshow-container {
+			  width: 180px;
+				height: 200px;
+			  position: relative;
+			  margin: auto;
+				object-fit: contain;
+			}
+
+		}
+
 		@media screen and (max-width: 360px) {
 			#slide_show > .slideshow-container {
-			  width: 200px;
+			  width: 150px;
 				height: 200px;
 			  position: relative;
 			  margin: auto;
