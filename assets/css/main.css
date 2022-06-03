@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+
 }
 
 ol, ul {
@@ -3801,8 +3802,8 @@ input, select, textarea {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 400px;
-	height: 400px;
+  width: auto;
+	height: auto;
   position: relative;
   margin: auto;
 }
