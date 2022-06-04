@@ -3804,7 +3804,7 @@ input, select, textarea {
 		.slideshow-container {
 		  position: relative;
 		  margin: auto;
-			max-width: 40%;
+			max-width: 400px;
 			max-height: 400px;
 
 
@@ -3822,8 +3822,8 @@ input, select, textarea {
 
 	.mySlides {
 	  display: none;
-		width: auto;
-		height: auto;
+		width: 90%;
+		height: 90%;
 		/* max-width: 70%;
 		height: 65%; */
 
@@ -3835,8 +3835,8 @@ input, select, textarea {
 
 	.mySlides {
 	  display: none;
-		width: auto;
-		height: auto;
+		width: 80%;
+		height: 80%;
 		/* max-width: 55%;
 		height: 45%; */
 	}
