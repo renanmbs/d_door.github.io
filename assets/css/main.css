@@ -3804,20 +3804,29 @@ input, select, textarea {
 		.slideshow-container {
 		  position: relative;
 		  margin: auto;
+			max-width: 40%;
+			max-height: 400px;
+
+
 		}
 /* Hide the images by default */
 .mySlides {
   display: none;
-	max-width: 400px;
-	height: 70%;
+	/* max-width: auto;
+	height: 70%; */
+	width: auto;
+	height: auto;
 }
 
 @media screen and (max-width: 736px) {
 
 	.mySlides {
 	  display: none;
-		max-width: 300px;
-		height: 65%;
+		width: auto;
+		height: auto;
+		/* max-width: 70%;
+		height: 65%; */
+
 	}
 
 }
@@ -3826,8 +3835,10 @@ input, select, textarea {
 
 	.mySlides {
 	  display: none;
-		max-width: 55%;
-		height: 45%;
+		width: auto;
+		height: auto;
+		/* max-width: 55%;
+		height: 45%; */
 	}
 
 }
