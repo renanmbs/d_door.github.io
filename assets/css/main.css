@@ -3800,17 +3800,36 @@ input, select, textarea {
 
 		* {box-sizing:border-box}
 
-/* Slideshow container */
-.slideshow-container {
-  width: auto;
-	height: auto;
-  position: relative;
-  margin: auto;
-}
-
+		/* Slideshow container */
+		.slideshow-container {
+		  position: relative;
+		  margin: auto;
+		}
 /* Hide the images by default */
 .mySlides {
   display: none;
+	max-width: 450px;
+	height: 350px;
+}
+
+@media screen and (max-width: 736px) {
+
+	.mySlides {
+	  display: none;
+		max-width: 250px;
+		height: 150px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.mySlides {
+	  display: none;
+		max-width: 150px;
+		height: 80px;
+	}
+
 }
 
 /* Next & previous buttons */
